@@ -29,6 +29,49 @@
       <p></p>
       <label>Data di nascita</label>
       <input class="w3-input" type="date" name="dataNascita">
+      <p></p>
+      <label>Password</label>
+      <input class="w3-input w3-border" type="password" name="pwd">
+      <p></p>
+      <form class="w3-container w3-card-4">
+        <h2 class="w3-container w3-green">Gadget</h2>
+        <p>
+        <input class="w3-check" type="checkbox" name="ordine1" value="latte" checked="checked">
+        <label>Sciarpa</label></p>
+        <p>
+        <input class="w3-check" type="checkbox" name="ordine2" value="zucchero" >
+        <label>Cappellino</label></p>
+        <p>
+        <input class="w3-check" type="checkbox" name="ordine3" value="limone" disabled >
+        <label>Fischietto</label></p>
+        <form class="w3-container w3-card-4">
+          <h2 class="w3-container w3-green">Settore Tribuna</h2>
+          <p>
+          <input class="w3-radio" type="radio" name="taglia" value="S">
+          <label>Est</label></p>
+          <p>
+          <input class="w3-radio" type="radio" name="taglia" value="M" checked>
+          <label>Ovest</label></p>
+          <p>
+          <input class="w3-radio" type="radio" name="taglia" value="L">
+          <label>Nord</label></p>
+          <p>
+          <input class="w3-radio" type="radio" name="taglia" value="L">
+          <label>Sud</label></p>
+          <p>
+          <form class="w3-container w3-card-4">
+            <h1 class="w3-container w3-green">Taglia</h1>
+            
+            <select class="w3-select" name="taglia">
+              <option value="" disabled selected>Scegli la taglia</option>
+              <option value="S">Small</option>
+              <option value="M">Media</option>
+              <option value="L">Large</option>
+            </select>
+            <p>
+          </form>      
+        </form>
+      </form>
     </form>   
   </body>
 </html>
